@@ -160,3 +160,30 @@ DOM وهو اختصار Document Object Model
     </body>
     </html>
 
+
+
+# بعض أمثلة Array methods
+
+# دالة concat
+
+أثناء التعامل مع المصفوفات قد ترغب في دمج أكثر من مصفوفة معاً. مثلاً في المثال أدناه مصفوفتين كل مصفوفة مكونة من مجموعة من الألوان، وفي حال أردنا دمج تلك المصفوفتين توفر لنا لغة Javascript دالة `concat` والتي تستخدم لدمج مصفوفتين أو أكثر دون التأثير على المصفوفات الموجودة، أي تقوم بترجيع مصفوفة جديدة مكونة من جميع عناصر المصفوفات التي أردنا دمجها.
+
+
+    const primaryColors = ['red', 'yellow', 'blue']
+    const secondaryColors = ['green', 'orange', 'violet']
+
+سنقوم الآن بدمج المصفوفتين `primaryColors` و `secondaryColors` بداخل مصفوفة جديدة باسم `colors` عن طريق تحديد اسم المصفوفة الأولى ثم استخدام الدالة `concat` مع إعطائها اسم المصفوفة الثانية بالشكل التالي:
+
+
+    const primaryColors = ['red', 'yellow', 'blue']
+    const secondaryColors = ['green', 'orange', 'violet']
+    const colors = primaryColors.concat(secondaryColors)
+    
+    console.log(colors) //output: [ 'red', 'yellow', 'blue', 'green', 'orange', 'violet' ]
+
+في المثال أعلاه تم دمج عناصر المصفوفة الأولى `['red', 'yellow', 'blue']` مع عناصر المصفوفة الثانية `['green', 'orange', 'violet']` وعند طباعة المصفوفة الجديدة أصبحت المخرجات كالتالي:
+
+
+    //output: [ 'red', 'yellow', 'blue', 'green', 'orange', 'violet' ]
+
+
