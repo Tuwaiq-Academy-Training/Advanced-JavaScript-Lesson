@@ -18,10 +18,6 @@ DOM وهو اختصار Document Object Model
 # Events and Event Listener مفهوم
 
 
-
-
-## مفهوم Events 
-
 تعتبر Events احداث تحدث عندما يتم تحفيزها من خلال triggers مثل الضغط على زر او تغيير قيمة عنصر ما، او حتى عند المرور mouse على عنصر ما وهو ما يسمى mouse hover.
 
 
