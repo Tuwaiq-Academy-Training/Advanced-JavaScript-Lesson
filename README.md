@@ -502,7 +502,7 @@ DOM وهو اختصار Document Object Model
 ## مفهوم async 
 لنبدأ بالكلمة الرئيسية async. يمكن وضعها قبل دالة ، مثل هذا:
 
-async function f() {
+    async function f() {
   return 1;
 }
 
@@ -511,7 +511,7 @@ async function f() {
 الصيغة:
 
 let value = await promise;
-
+ 
 تجعل الكلمة الرئيسية await جافا سكريبت تنتظر حتى يتنفذ هذا الوعد ويعيد نتيجته.
 
 
