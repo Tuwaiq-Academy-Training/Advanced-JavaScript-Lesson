@@ -512,7 +512,7 @@ DOM وهو اختصار Document Object Model
 لا يمكن إستخدام await إلا بداخل async 
 الصيغة:
 
-let value = await promise;
+     let value = await promise;
 
 
 تجعل الكلمة الرئيسية await جافا سكريبت تنتظر حتى يتنفذ هذا الوعد ويعيد نتيجته.
