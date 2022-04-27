@@ -503,14 +503,19 @@ DOM وهو اختصار Document Object Model
 لنبدأ بالكلمة الرئيسية async. يمكن وضعها قبل دالة ، مثل هذا:
 
     async function f() {
-  return 1;
-}
+    return 1;
+    }
+    
+    
 
 ## مفهوم await
 لا يمكن إستخدام await إلا بداخل async 
 الصيغة:
 
+
 let value = await promise;
+
+
  
 تجعل الكلمة الرئيسية await جافا سكريبت تنتظر حتى يتنفذ هذا الوعد ويعيد نتيجته.
 
