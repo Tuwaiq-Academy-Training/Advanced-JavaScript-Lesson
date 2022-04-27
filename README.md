@@ -690,9 +690,9 @@ let value = await promise;
 تحتاج العديد من المشاريع على الويب إلى التفاعل مع واجهة برمجة تطبيقات  REST API في مرحلة ما من مراحل تطورها. Fetch هي أحد خيارات طلبات AJAX لواجهة برمجة تطبيقات REST API
 
 
-  fetch('http://example.com/movies.json')
-  .then(response => response.json())
-  .then(data => console.log(data));
+    fetch('http://example.com/movies.json')
+    .then(response => response.json())
+    .then(data => console.log(data));
   
   
   
